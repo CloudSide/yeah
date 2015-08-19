@@ -1,13 +1,23 @@
 Yeah
 ====
+
+[![Latest Stable Version](https://poser.pugx.org/cloudmario/yeah/v/stable)](https://packagist.org/packages/cloudmario/yeah) [![Total Downloads](https://poser.pugx.org/cloudmario/yeah/downloads)](https://packagist.org/packages/cloudmario/yeah) [![Latest Unstable Version](https://poser.pugx.org/cloudmario/yeah/v/unstable)](https://packagist.org/packages/cloudmario/yeah) [![License](https://poser.pugx.org/cloudmario/yeah/license)](https://packagist.org/packages/cloudmario/yeah)
+
+
 Execute a command and provides a much greater degree of control over the program execution. 
 
 
 #### Requirements
+* PHP >= 5.3.0
 
-* PHP >= 5.3.1
-* [PHP cURL]
-
+#### Introduction
+use composer
+composer.json:
+```json
+"require": {
+	"cloudmario/yeah": "dev-master"
+}
+```
 
 #### Usage
 
