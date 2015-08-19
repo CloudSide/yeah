@@ -1,0 +1,22 @@
+{
+    "name": "cloudmario/yeah",
+    "type": "library",
+    "description": "",
+    "keywords": ["cloud","popen","yeah"],
+    "homepage": "https://github.com/CloudSide/yeah",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cloud Mario",
+            "email": "smcz@qq.com",
+            "homepage": "http://weibo.com/smcz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap": ["class/"]
+    }
+}
