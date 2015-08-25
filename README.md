@@ -57,7 +57,7 @@ $status = Yeah::yeah("/bin/bash", function($pid, $stdin, $stdout, $stderr) {
 	/*
 	while ( !feof($stdout) ) {
 		$out .= fgets($stdout, 2048);
-        }
+	}
 	*/
 	
 });
