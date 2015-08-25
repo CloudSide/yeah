@@ -54,6 +54,12 @@ $status = Yeah::yeah("/bin/bash", function($pid, $stdin, $stdout, $stderr) {
 	echo "stdout : " . trim(fread($stdout, 1024)) . "\n";
 	echo "stderr : " . trim(fread($stderr, 1024)) . "\n";
 	
+	/*
+	while ( !feof($stdout) ) {
+		$out .= fgets($stdout, 2048);
+        }
+	*/
+	
 });
 
 echo "status : " . trim(print_r($status, true)) . "\n";
